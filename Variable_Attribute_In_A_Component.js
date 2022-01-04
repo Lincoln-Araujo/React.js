@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// variable that contains some attributes
 const owl = {
   title: 'Excellent Owl',
   src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg'
 };
 
-// getting the const attributes
+// getting the variable attributes
 class Owl extends React.Component {
   render () {
     return (
@@ -21,6 +22,7 @@ class Owl extends React.Component {
   }
 }
 
+//rendering the instance of the variable
 ReactDOM.render(
   <Owl />,
   document.getElementById('app') 
