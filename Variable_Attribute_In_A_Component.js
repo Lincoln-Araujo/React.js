@@ -2,20 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // variable that contains some attributes
-const owl = {
-  title: 'Excellent Owl',
-  src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg'
+const example = {
+  title: 'Title here',
+  src: 'image here'
 };
 
 // getting the variable attributes
-class Owl extends React.Component {
+class Example extends React.Component {
   render () {
     return (
       <div>
-        <h1>{owl.title}</h1>
+        <h1>{example.title}</h1>
         <img 
-          src= {owl.src}
-          alt= {owl.title}
+          src= {example.src}
+          alt= {example.title}
         />
       </div>
     );
@@ -24,7 +24,7 @@ class Owl extends React.Component {
 
 //rendering the instance of the variable
 ReactDOM.render(
-  <Owl />,
+  <Example />,
   document.getElementById('app') 
 );
 
