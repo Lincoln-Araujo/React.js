@@ -8,6 +8,10 @@ class Example extends React.Component {
       mood:   'great',
       hungry: false
     };
+    // when we have a component class method that uses this,
+    // we ne to bind that method inside of the constructor too
+    // that's why we use the code above:
+    this.changingState = this.changingState.bind(this);
   }
   
   // setting a method that will change a state value
