@@ -1,0 +1,107 @@
+div.buddyInfoProfile {
+   position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 208px;
+    height: 100px;
+    
+}
+
+h2.subtitle {
+  position: relative;
+  width: 308px;
+  padding: 0 0 0 0;
+  margin-top: 64px;
+  margin-left: 8px;
+  font-weight: 300;
+  color:#e9e9e9;
+  mix-blend-mode: exclusion;
+}
+ 
+ .profile-head {
+   position: relative;
+   flex-direction: row; 
+   width: 308px;
+   height: 100px;
+   margin-left: 8px;
+   margin-top: 0px;
+ }
+
+ img.buddyPicture {
+   width:100px;
+   height: 100px;
+   margin-left: 0;
+   padding: 0 0 0 0;
+   position: absolute;
+   border: 2px solid rgba(0, 0, 0, 1);
+   box-sizing: border-box;
+ }
+
+ p {
+   width: 200px;
+   position: absolute;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   display: flex;
+   font-weight: 300;
+   color:#e9e9e9;
+   mix-blend-mode: exclusion;
+}
+
+ p.buddyName {
+   margin-top: 0;
+   margin-left: 8px;
+   font-size: 24px;
+   font-style: bold;
+   font-family: 'Dongle', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+}
+
+ .profile-body {
+   width: 308px;
+   position: relative;
+   display: inline-block;
+   justify-content: left;
+   margin-top: 0px;
+   margin-left: 0px;
+ }
+
+
+ p.bio {
+   width: 200px;
+   margin: 32px 0 0 8px;
+   padding: 8px 0 0 0;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 10px;
+ 
+   position: absolute;
+  
+ }
+
+ p.idBuddy {
+   margin: 0 0 0 8px;
+   color: #6B6666;
+   font-weight: normal;
+   font-style: normal;
+   font-weight: normal;
+   mix-blend-mode: exclusion; 
+ }
+
+ .line {
+   border-top: 1px solid #e0dfdf;
+   border-bottom: 1px solid transparent;
+   border-left: 1px solid transparent;
+   border-right: 1px solid transparent;
+   height: 8px;
+   width: 304px;
+   margin-left: 8px;
+   margin-top: 8px;
+   border-radius: nullpx;
+   position: relative;
+}

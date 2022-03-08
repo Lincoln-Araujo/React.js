@@ -1,0 +1,178 @@
+div.nameUsers {
+    position: flex;
+    display: flex;
+    align-items: start;
+    /*background-color: #454545;*/
+    width:62px;
+    height: 16px;
+    margin-left:0;
+    font-size: 16px;
+    font-family: 'Dongle', sans-serif;
+    color: #6B6666;
+    mix-blend-mode: exclusion;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;  
+     
+}
+
+h2.subtitle {
+    display: flex;
+    justify-content: left;
+    width: 308px;
+    height: 24px;
+    margin-left: 0px;
+    margin-top: 64px; 
+    margin-bottom: 0px;
+    padding: 0 0 0 0;   
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;    
+  
+}
+
+h3.subtitle, button.buttonUsers {
+    /*background-color: #659874;*/
+    font-family: 'Dongle', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color:#e9e9e9;
+    mix-blend-mode: exclusion;
+}
+
+h3.subtitle {
+    margin: 16px 0 -8px 0;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.userProfile {
+    position: relative;
+    flex-direction: row; 
+    width: 308px;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: 0px;    
+}
+
+img.MyProfile {
+    width:100px;
+    height: 100px;
+    margin-left: 0;
+    padding: 0 0 0 0;
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+}
+
+div.Paragraph {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: rgb(179, 40, 40);*/
+    margin-left: 100px;
+    width: 208px;
+    height: 100px;
+
+}
+
+p {
+    width: 200px;
+    margin: 8px 0 24px 8px;
+    padding: 0 0 0 0;
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;    
+    position: absolute;
+}
+
+p.nameUser{
+    margin-top: 32px;
+    margin-left: 8px;
+    font-size: 24px;
+    font-style: bold;
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: normal; 
+    color:#e9e9e9; 
+    mix-blend-mode: exclusion;   
+}
+
+p.idUser {
+    margin: 40px 0 0 8px;
+    color: #6B6666;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;  
+    mix-blend-mode: exclusion; 
+}
+
+.line {
+    border: 1px solid #e0dfdf;
+    height: 0px;
+    width: 308px;
+    margin-left: 0px;
+    margin-top: 8px;
+    border-radius: nullpx;
+    position: relative;
+}
+
+.buddiesList {
+    width: 308px;
+    position: relative;
+    display: inline-block;
+    /*background-color: #254158;*/
+    justify-content: left;
+    margin-top: -8px;
+}
+
+ul {
+    /*background-color: #F125D5;*/
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: -8px 0 0 4px;
+}
+
+li {
+    /*background-color: #515151;   */ 
+    flex-direction: row;
+    width: 93px;
+    height: 50px;
+    margin-top: -8px;
+}
+
+.buddyInfo {
+    flex-direction: column;
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    justify-content: left; 
+    padding: 0 0 0 0; 
+}
+
+button.buttonUsers {
+    background-color: transparent;
+    border-color: transparent;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;  
+    cursor: pointer;
+}
+
+.nameUsers {
+    position: absolute;
+    margin-top: -8px;
+    margin-bottom: -4px;
+}

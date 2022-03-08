@@ -1,0 +1,300 @@
+  html {
+    width: 100%;
+    background-color: #313130;
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }  
+  
+  .lightContainer {
+    display: flex;
+    align-items: start;
+    width: 362px;
+    height: 700px;
+    background-image: url("./images/caseAndroidLarge.png");
+    background-size: 362px 703px;
+    margin: 0 0 0 0;
+    flex-direction: column;
+    color: #FFFFFF;
+  }
+
+  .darkContainer {
+    display: flex;
+    align-items: start;
+    width: 362px;
+    height: 700px;
+    background-image: url("./images/caseAndroidLarge.png");
+    background-size: 362px 703px;
+    margin: 0 0 0 0;
+    flex-direction: column;
+    color:#302929;
+  }
+
+  div.PetBook {
+    
+    align-items: start;
+    margin: 15px 0 0 16px;
+    padding: 0 0 0 0;
+    color:#302929;
+  }
+
+  .App {
+    width: 350px;
+    height: 700px;
+    border-radius: 30px;
+    z-index: 1;
+    margin: 0 0 0 0;
+    color: #FFFFFF;
+    align-items: start;
+  }  
+  
+  .Profile.loading {
+    color: #302929;
+  }
+  
+  
+  button.Return {
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    margin: 46px 0px 0 200px;
+    padding: 0 0 0 0;  
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;    
+    cursor: pointer; 
+    width: 130px;
+    font-weight: 300;
+    color:#e9e9e9;
+    mix-blend-mode: exclusion;
+  }
+
+
+    /* text settings */
+h1.topLogo {
+  position: absolute;
+  width: 67px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding: 0 0 0 0;
+  font-family: Rowdies;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color:#e9e9e9;
+  mix-blend-mode: exclusion;
+}
+
+.percentage {
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  margin-left: 32px;
+  /*background-color: #d16d6d;*/
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  
+}
+
+/* images settings */
+.camera {
+  margin-left: 116px;
+  position: relative;
+}
+
+.coloredLogo {
+  position: absolute;
+  width: 30px;
+  height: 30px; 
+  margin-left: 69px;   
+  margin-top: 29px; 
+  
+}
+
+div.Clock {
+  position: relative;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* components settings*/
+.topMenu {
+  width: 308px;
+  height: 22px;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-bottom: 0px;
+  padding: 0 0 0 0;  
+}
+  
+.rigthIcons {
+  margin-left: 77px;
+  flex-direction: row;
+}  
+
+.apps {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.footer {
+  width: 324px;
+  height: 22px;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 660px;
+  margin-left: 16px;
+  padding: 0 0 0 0;
+  /*background-color: rgb(167, 47, 47)*/
+}  
+
+div.background {
+  position:absolute;
+  border-radius: 20px;
+  padding: 0 0 0 0;
+  margin: -6px 0 0 -6px;
+  height: 682px;
+  width: 338px;
+}
+
+button.screenColorDark {    
+  height: 16px;
+  width: 34px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #302929;
+  margin-top: 32px;
+  margin-left: 272px;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+}
+
+button.screenColorLight {    
+  height: 16px;
+  width: 34px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #ffffff;
+  margin-top: 32px;
+  margin-left: 272px;
+  cursor: pointer;
+  position: absolute;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.lightColor {
+  color: white;      
+}
+
+.darkColor {
+  color: #302929;   
+}
+
+.PetBookTopMenu {
+  margin-top: -9px;
+  margin-left: -24px;  
+}
+
+.PetBookFooter {
+  margin-top: 0px;
+  margin-left: -17px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5hm7sk');
+  src:  url('fonts/icomoon.eot?5hm7sk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5hm7sk') format('truetype'),
+    url('fonts/icomoon.woff?5hm7sk') format('woff'),
+    url('fonts/icomoon.svg?5hm7sk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-navigation_icon:before {
+  content: "\e902";
+  font-size: 24px;
+  margin-right: 64px;
+}
+.icon-back_icon:before {
+  content: "\e903";
+  font-size: 20px;
+}
+.icon-bars_icon:before {
+  content: "\e900";
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 8px;
+}
+.icon-battery_icon:before {
+  content: "\e901";
+  font-size: 12px;
+}
+.icon-paw_icon_dark:before {
+  content: "\e904";
+  font-size: 12px;
+  color: #302929;
+  margin-top: -4px;
+}
+.icon-paw_icon_light:before {
+  content: "\e904";
+  font-size: 10px;
+  color: white; 
+  margin-top: -4px;  
+}
+.icon-connection:before {
+  content: "\e91b";
+  font-size: 10px;
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+  font-size: 16px;
+  margin-right: 64px;
+}
+
