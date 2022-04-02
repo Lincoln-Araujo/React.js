@@ -4,7 +4,11 @@
 #### create a local server and replace this code into your new file
 
 <div> 
-  <p> You can watch a video presentation on my <a href={https://www.linkedin.com/posts/lincolnaraujo_react-project-codecademy-activity-6907098767137624064-3ksH?utm_source=linkedin_share&utm_medium=member_desktop_web}>linkedin</a> too</p> 
+  <p> You can watch a video presentation on my </p> <a href={https://www.linkedin.com/posts/lincolnaraujo_react-project-codecademy-activity-6907098767137624064-3ksH?utm_source=linkedin_share&utm_medium=member_desktop_web}>linkedin</a> <p> too:</p> 
+</div>
+
+<div style="display: inline_block"><br/>
+  <img src="./linkedIn.png" />
 </div>
 
 <div style="display: inline_block"><br/>
