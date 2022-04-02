@@ -10,7 +10,7 @@
     <img 
          src="./linkedIn.png" 
          class="media-object  img-responsive img-thumbnail" 
-         style="height: 40px"
+         style="height: 80px"
          target="_blank">
   </a>
 
