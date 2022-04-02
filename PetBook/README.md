@@ -5,11 +5,12 @@
 
 <p> You can watch a video presentation on my linkedin too:
   <br/>
+  <br/>
   <a href="https://www.linkedin.com/posts/lincolnaraujo_react-project-codecademy-activity-6907098767137624064-3ksH?utm_source=linkedin_share&utm_medium=member_desktop_web">
     <img 
          src="./linkedIn.png" 
          class="media-object  img-responsive img-thumbnail" 
-         style="height: 32px"
+         style="height: 40px"
          target="_blank">
   </a>
 
