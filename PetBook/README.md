@@ -8,8 +8,8 @@
     <img 
          src="./linkedIn.png" 
          class="media-object  img-responsive img-thumbnail" 
-         style="height: 32px">
-         target="_blank"
+         style="height: 32px"
+         target="_blank">
   </a>
 
 
