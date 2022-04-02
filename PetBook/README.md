@@ -6,7 +6,7 @@
 <p> You can watch a video presentation on my linkedin too: 
 <div style="display: inline_block"><br/>
   <a href={https://www.linkedin.com/posts/lincolnaraujo_react-project-codecademy-activity-6907098767137624064-3ksH?utm_source=linkedin_share&utm_medium=member_desktop_web}>
-  <img align="center" alt="nodejs" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/> 
+    <img align="center" alt="nodejs" src="./linkedIn.png"/> 
   </a>
 </div>
 
